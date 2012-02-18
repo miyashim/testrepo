@@ -1,0 +1,1 @@
+1.use CPPUNIT_TEST_SUITE_REGISTRATION()macro to use TestFactoryRegistry if test suite written are too many 
