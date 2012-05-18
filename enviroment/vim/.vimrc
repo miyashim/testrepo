@@ -1,42 +1,42 @@
-"�������ԤΥ���ǥ�Ȥ򸽺߹Ԥ�Ʊ���ˤ���
+"新しい行のインデントを現在行と同じにする
 set autoindent
-"�Хå����åץե��������ǥ��쥯�ȥ�
+"バックアップファイルを作るディレクトリ
 set backupdir=$HOME/vimbackup
-"�ե�������¸�����������ν���ǥ��쥯�ȥ��Хåե��ե�������֤�����
+"ファイル保存ダイアログの初期ディレクトリをバッファファイル位置に設定
 set browsedir=buffer 
-"����åץܡ��ɤ�Windows��Ϣ��
+"クリップボードをWindowsと連携
 set clipboard=unnamed
-"Vi�ߴ��򥪥�
+"Vi互換をオフ
 set nocompatible
-"����åץե������ѤΥǥ��쥯�ȥ�
+"スワップファイル用のディレクトリ
 set directory=$HOME/vimbackup
-"���֤�����˶���ʸ������������
+"タブの代わりに空白文字を挿入する
 set expandtab
-"�ѹ���Υե�����Ǥ⡢��¸���ʤ���¾�Υե������ɽ��
+"変更中のファイルでも、保存しないで他のファイルを表示
 set hidden
-"���󥯥��󥿥륵������Ԥ�
+"インクリメンタルサーチを行う
 set incsearch
-"����ʸ���������ʤ��ԲĻ�ʸ����ɽ������
+"タブ文字、行末など不可視文字を表示する
 set list
-"list��ɽ�������ʸ���Υե����ޥåȤ���ꤹ��
+"listで表示される文字のフォーマットを指定する
 set listchars=eol:$,tab:>\ ,extends:<
-"���ֹ��ɽ������
+"行番号を表示する
 set number
-"���եȰ�ư��
+"シフト移動幅
 "set shiftwidth=4
-"�Ĥ���̤����Ϥ��줿�Ȥ����б������̤�ɽ������
+"閉じ括弧が入力されたとき、対応する括弧を表示する
 set showmatch
-"����������ʸ����ޤ�Ǥ�������/�������
+"検索時に大文字を含んでいたら大/小を区別
 set smartcase
-"�������Ԥ��ä��Ȥ��˹��٤ʼ�ư����ǥ�Ȥ�Ԥ�
+"新しい行を作ったときに高度な自動インデントを行う
 set smartindent
-"��Ƭ��;����� Tab ���Ǥ�����ȡ�'shiftwidth' �ο���������ǥ�Ȥ��롣
+"行頭の余白内で Tab を打ち込むと、'shiftwidth' の数だけインデントする。
 set smarttab
-"�ե�������� <Tab> ���б��������ο�
+"ファイル内の <Tab> が対応する空白の数
 "set tabstop=4
-"����������Ƭ�������ǻߤޤ�ʤ��褦�ˤ���
+"カーソルを行頭、行末で止まらないようにする
 set whichwrap=b,s,h,l,<,>,[,]
-"������ե��������Ƭ�إ롼�פ��ʤ�
+"検索をファイルの先頭へループしない
 set nowrapscan
 
 
